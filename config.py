@@ -28,7 +28,14 @@ def is_enabled(value, default):
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
-      
+
+API = environ.get("API", "20d0f5bcd1bbbc568a2ab2fd77d127729de8fa03") # shortlink api
+URL = environ.get("URL", "modijiurl.com") # shortlink domain without https://
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/+56Y2gVGHlfdiNWM1") # how to open link 
+BOT_USERNAME = environ.get("BOT_USERNAME", "OreoBisk_bot") # bot username without @
+VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
+
+
 # Owner Information
 API_ID = int(environ.get("API_ID", "21793917"))
 API_HASH = environ.get("API_HASH", "6a379091d62df4a01334718ddf6c3e9e")
@@ -46,7 +53,6 @@ DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "OreoBisk_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
